@@ -1,0 +1,107 @@
+body {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #B88A00;
+}
+
+.contentimg {
+    width: 100%;
+    height: auto;
+    border: black groove 10px;
+}
+
+#logo {
+    position: absolute;
+    height: 50%;
+    top: 25%;
+    bottom: 25%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+
+}
+
+#logo-fg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background: rgb(255,245,214);
+    background: linear-gradient(180deg, rgba(255,245,214,1) 0%, rgba(153,214,183,1) 35%, rgba(149,217,218,1) 100%);
+    z-index: 5;
+}
+
+#logo-fg>img {
+    top: 10%;
+    bottom: 10%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    display: inline;
+    height: 80%;
+    width: auto;
+    align-self: center;
+    border: 10px groove #FFCC33;
+}
+
+.narrative {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* height: 150px; */
+    border : 1px solid black;
+    color: white;
+    text-shadow: 5px black;
+    padding-top: 1vh;
+    padding-bottom: 1vhpx;
+    font-family: 'El Messiri', sans-serif;
+    border: 0;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.open>p {
+    font-size: large;
+}
+
+.narrative>h1 {
+    text-transform: uppercase;
+}
+
+.narrative>p {
+    font-size: large;
+}
+
+.open {
+    display: none;
+}
+
+.red {
+    background-color: #5CC2D6;
+    color: #B88A00;
+    border-radius: 10px;
+    transform: skew(15deg);
+}
+
+.red>h1 {
+    transform: skew(-15deg);
+}
+
+.red>p {
+    transform: skew(-15deg);
+}
+
+.test {
+    background-color: aqua;
+}
+
+.test-rotate {
+    background-image: url("./img/bananas.jpg");
+}
+
+.vertical-center {
+    margin-top: 25vh;
+  }

@@ -1,0 +1,145 @@
+{% extends "bootstrap/base.html" %}
+
+{% block title %}
+Home
+{% endblock %}
+
+{% block styles %}
+{{super()}}
+<link rel="stylesheet" href="{{url_for('.static', filename='guinana.css')}}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@600&display=swap" rel="stylesheet"> 
+{% endblock %}
+
+{% block content %}
+  <div id="logo-fg">
+    <img src="/static/img/bananaslogo.png"/>
+  </div>
+
+  <div class="container" id="logo">
+      <div class="row">
+        <div class="col-md-5 spacer">
+        </div>
+
+        <div class="col-md-2 narrative">
+            <h1>Guineos</h1>
+            <div class="open">
+              <p>
+                Comenzamos nuestra aventura con el pan de guineo con un objetivo sencillo: conservar nuestros guineos como un sabroso manjar que pudiéramos guardar durante más tiempo pero que siguiera teniendo ese dulce sabor a guineo. En una comunidad con una fuerte cultura de compartir, nuestro pan de guineo despegó en nuestro vecindario y se convirtió en una pequeña aventura para crear un producto que combina los sabores locales en algo que puede ser almacenado, enviado y compartido con el mundo.
+              </p>
+              <p> 
+                El pan de guineo se convirtió primero en magdalenas para poder vender pequeñas porciones, y luego en biscotes, una delicia de doble horneado, que puede almacenarse durante más tiempo y distribuirse. El doble horneado aporta un crujido satisfactorio al pan. Empezamos a encontrar las proporciones adecuadas y los sabores, buscando más ingredientes locales para incorporar a nuestra receta, y opciones para comprar estos ingredientes locales de forma flexible a los productores locales.
+              </p>
+              <!-- Ingredients pic -->
+              <img src="/static/img/ingredients_edit.png" class="contentimg">
+              <p>
+                Ahora mismo, los guineos son nuestros, orgánicos y naturales, tomados a mano desde el árbol hasta la mesa. Exploramos la selva y el patio para encontrar racimos listos para recoger, los transportamos de vuelta a casa por caminos que mantenemos con métodos libres de químicos, y los almacenamos en armarios que construimos para mantenerlos a salvo de las plagas y frescos sin pesticidas ni conservantes. Maduran de forma natural. Los mezclamos, horneamos y envasamos sin rellenos ni aditivos.
+              </p>
+              <!-- Bananas on the line -->
+              <img src="/static/img/IMG_20220619_103953.jpg" class="contentimg"> <!-- OK -->
+            </div>
+        </div>
+        
+        <div class="col-md-5 spacer">
+        </div>
+      </div>
+
+      <!-- CACAO -->
+      <div class="row">
+        <div class="col-md-5 spacer">
+        </div>
+
+        <div class="col-md-2 narrative">
+            <h1>Cacao</h1>
+            <div class="open">
+              <p>
+                Cuando empezamos a experimentar con sabores más locales, pasamos de las pepitas de chocolate de las grandes marcas a los nibs de cacao de los vendedores locales. A medida que nos íbamos haciendo más adeptos a la incorporación de los nibs al guineo para proporcionar un rico aroma a chocolate, empezamos a explorar la posibilidad de utilizar nuestro propio cacao.
+              </p>
+              <!-- Cacao processing -->
+              <img src="/static/img/20220215_170935.jpg" class="contentimg"> <!-- OK -->
+              <p>
+                Esto, de nuevo, se basó en la cultura de compartir en nuestra comunidad.
+              </p>
+              <p>
+                Aunque tenemos varios árboles de cacao que se plantaron durante la recuperación del huracán María, todavía son demasiado pequeños para dar fruto y muchos árboles más viejos fueron . Nuestra incursión en el cacao surgió de la generosidad de una comunidad entusiasmada por aprender el arte de la fermentación, el secado y el tueste juntos. Esperamos que, a medida que avancemos en la producción de cacao, podamos utilizar esto para nuevas técnicas y tecnologías que toda la comunidad pueda compartir y beneficiarse (como las posibilidades de fermentación en pequeños lotes).
+              </p>
+              <!-- Cacao growing in pots -->
+              <img src="/static/img/IMG_20220619_105755.jpg" class="contentimg"> <!-- OK -->
+            </div>
+        </div>
+
+        <div class="col-md-5 spacer">
+        </div>
+      </div>
+
+      <!-- HONEY -->
+      <div class="row">
+        <div class="col-md-5 spacer">
+        </div>
+
+        <div class="col-md-2 narrative">
+            <h1>Miel</h1>
+            <div class="open">
+              <p>
+                La miel local está ampliamente disponible en la zona y utilizamos cantidades generosas de miel local de los apicultores. Estas abejas están bien cuidadas y son vitales para muchas de las plantas de Puerto Rico, incluyendo el café, las frutas y cualquier número de la hermosa flora de la selva tropical.
+              </p>
+              <!-- Honey bees -->
+              <img src="/static/img/20220215_145605.jpg" class="contentimg"> <!-- OK -->
+            </div>
+        </div>
+
+        <div class="col-md-5 spacer">
+        </div>
+      </div>
+
+      <!-- VANILLA -->
+      <div class="row">
+        <div class="col-md-5 spacer">
+        </div>
+
+        <div class="col-md-2 narrative">
+            <h1>Vainilla</h1>
+            <div class="open">
+              <p>
+                Entre esta flora de la selva tropical se encuentra la vainilla, una orquídea que florece en el entorno de la selva tropical. Descubrimos a los cultivadores locales y planeamos comprar vainilla local a los pequeños vendedores de la zona. Al igual que el cacao, es un producto que los cultivadores pueden procesar en su granja y producir a un mayor coste para una economía agrícola estable. Esperamos que algún día también crezca un jardín de vainilla en nuestra granja, ya que estas plantas pueden crecer de forma solidaria en jardines encantadores incrustados en la selva tropical sin deforestación a gran escala. Esto es algo que valoramos mucho: nuestros biscottis pretenden resaltar y preservar los aspectos más armoniosos de los sabores locales.
+              </p>
+            </div>
+        </div>
+
+        <div class="col-md-5 spacer">
+        </div>
+      </div>
+
+      <!-- FUTURE -->
+      <div class="row">
+        <div class="col-md-5 spacer">
+        </div>
+
+        <div class="col-md-2 narrative">
+            <h1>Futuro</h1>
+            <div class="open">
+              <p>
+                Nuestro objetivo es seguir utilizando tantos ingredientes locales como sea posible, ser flexibles y mantener ese enfoque respetuoso con la naturaleza y los vecinos. A medida que nos expandimos y exploramos nuevos sabores, seguimos centrándonos en apoyar a las pequeñas empresas, incluidas las que simplemente tienen un pequeño huerto delante de sus casas. Las posibilidades que hemos encontrado hasta ahora incluyen la compra de mantequilla local y harina procesada localmente, posiblemente harina de panapeno para la versión sin gluten, o mantequilla de coco caribeña para una versión baja en colesterol, muchas de ellas procedentes de negocios propiedad de mujeres. Tenemos el compromiso de mantener nuestros ingredientes naturales, orgánicos, horneados en un biscotti con sabor a selva tropical.
+              </p>
+              <p>
+                Nuestro objetivo a largo plazo es crear una instalación comunitaria de horneado y envasado en el mercado local de mujeres, que podría aliviar la carga individual de la producción aprobada por el departamento de salud, necesaria para que podamos expandirnos por toda la isla. La demanda está aumentando rápidamente, sólo hay que dar un bocado para convencerse.
+              </p>
+              <p>
+                Sólo estamos al principio de este viaje y nos entusiasma que nos acompañen.
+              </p>
+              <!-- Something cute with the dogs?? -->
+              <img src="/static/img/20220625_115327.jpg" class="contentimg">
+            </div>
+        </div>
+
+        <div class="col-md-5 spacer">
+        </div>
+      </div>
+    </div>
+{% endblock %}
+
+{% block scripts %}
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="{{url_for('.static', filename='guinana.js')}}"></script>
+{% endblock %}
