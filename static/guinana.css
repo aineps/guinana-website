@@ -1,107 +1,100 @@
 body {
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: #B88A00;
-}
-
-.contentimg {
-    width: 100%;
-    height: auto;
-    border: black groove 10px;
-}
-
-#logo {
-    position: absolute;
-    height: 50%;
-    top: 25%;
-    bottom: 25%;
-    right: 0;
-    left: 0;
-    margin: 0 auto;
-
-}
-
-#logo-fg {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    background: rgb(255,245,214);
-    background: linear-gradient(180deg, rgba(255,245,214,1) 0%, rgba(153,214,183,1) 35%, rgba(149,217,218,1) 100%);
-    z-index: 5;
-}
-
-#logo-fg>img {
-    top: 10%;
-    bottom: 10%;
-    right: 0;
-    left: 0;
-    margin: 0 auto;
-    position: absolute;
-    display: inline;
-    height: 80%;
-    width: auto;
-    align-self: center;
-    border: 10px groove #FFCC33;
-}
-
-.narrative {
-    /* display: flex; */
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    /* height: 150px; */
-    border : 1px solid black;
-    color: white;
-    text-shadow: 5px black;
-    padding-top: 1vh;
-    padding-bottom: 1vhpx;
+    background-color: #FFF9EB;
     font-family: 'El Messiri', sans-serif;
-    border: 0;
-    background-color: rgb(0, 0, 0, 0.5);
 }
 
-.open>p {
+#carousel-container {
+    margin-bottom: 5px;
+}
+
+#carouselExampleIndicators {
+    align-self: center;
+}
+
+#checkboard {
+    width: 95%;
+}
+
+.checker > div {
+    border: 1px solid #FFF9EB;
+    aspect-ratio: 1 / 1;
+}
+
+.col-md-4 {
+    background-color: #007090;
+    font-family: 'El Messiri', sans-serif;
+    color: #FFF9EB;
+}
+
+.col-md-4 > p {
     font-size: large;
 }
 
-.narrative>h1 {
+.checkertext {
+    padding-top: 5vh;
+}
+
+.col-md-6 > h1 {
+    margin-top: 10px;
+}
+
+#santa {
+    height: 30vh;
+    margin-bottom: 10px;
+}
+
+.checkerimg {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.col-md-4 > img {
+    height: 100%;
+    width: 100%;
+}
+
+.checker > div:nth-child(2) {
+    background-color: #01A7C2;
+}
+
+.jumbotron {
+    background-color: #FFCC99;
+    padding: 10px;
+    margin-bottom: 5px;
+    align-items: center;
+}
+
+.jumbotron > h1 {
+    font-family: 'El Messiri', sans-serif;
+    font-size: 50px;
+    padding-top: 10px;
     text-transform: uppercase;
 }
 
-.narrative>p {
-    font-size: large;
-}
-
-.open {
-    display: none;
-}
-
-.red {
-    background-color: #5CC2D6;
-    color: #B88A00;
-    border-radius: 10px;
-    transform: skew(15deg);
-}
-
-.red>h1 {
-    transform: skew(-15deg);
-}
-
-.red>p {
-    transform: skew(-15deg);
-}
-
-.test {
-    background-color: aqua;
-}
-
-.test-rotate {
-    background-image: url("./img/bananas.jpg");
-}
-
-.vertical-center {
+.fyi-banner {
     margin-top: 25vh;
-  }
+}
+/* 
+.navbar-brand {
+    margin-left: 10px;
+} */
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-nav > .nav-item {
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family: 'El Messiri', sans-serif;
+    font-size: 25px;
+}
+
+.nutritionlabel {
+    border: #FFCC99 solid 3px;
+    width: 100%;
+}
+
+#nutrition > h1 {
+    margin-top: 12vh !important;
+}
