@@ -6,8 +6,16 @@ bootstrap = Bootstrap(app)
 
 @app.route('/')
 def home():
-    return render_template('guinana.html')
+    return render_template('home.html')
 
-@app.route('/test')
-def test():
-    return render_template('test.html')
+@app.route('/order')
+def order():
+    return render_template('order.html')
+
+@app.route('/about')
+def about():
+    return render_template('about.html')
+
+@app.route('/nutrition')
+def nutrition():
+    return render_template('nutrition.html')
