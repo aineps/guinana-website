@@ -88,8 +88,8 @@ body {
 }
 
 .navbar-nav > .nav-item {
-    margin-right: 50px;
-    margin-left: 50px;
+    /*margin-right: 50px;
+    margin-left: 50px;*/
     font-family: 'El Messiri', sans-serif;
     font-size: 25px;
 }
