@@ -83,6 +83,10 @@ body {
     margin-left: auto;
 }
 
+.navbar {
+    display: flex;
+}
+
 .navbar-nav > .nav-item {
     margin-right: 50px;
     margin-left: 50px;
